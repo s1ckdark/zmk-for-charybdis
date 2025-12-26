@@ -42,10 +42,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E           &kp R               &kp T          &kp Y        &kp U        &kp I      &kp O  &kp P     &kp C_MUTE
-&kp LCTRL       &kp A  &kp S  &kp D           &kp F               &kp G          &kp H        &kp J        &kp K      &kp L  &mkp MB1  &kp TAB
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V               &kp B          &kp N        &kp M        &kp RCTRL  &mo 1  &mkp MB2  &kp CAPS
-                              &lt 0 LEFT_ALT  &lt 1 LEFT_COMMAND  &lt 1 SPACE    &lt 1 SPACE  &lt 2 SPACE
+&kp ESC         &kp Q  &kp W  &kp E             &kp R         &kp T               &kp Y        &kp U        &kp I      &kp O       &kp P          &kp GRAVE
+&mt CAPS TAB    &kp A  &kp S  &kp D             &kp F         &kp G               &kp H        &kp J        &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V         &kp B               &kp N        &kp M        &kp COMMA  &kp PERIOD  &kp SLASH      &kp RIGHT_SHIFT
+                              &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND    &lt 1 SPACE  &lt 2 ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -53,19 +53,19 @@
 
         layer_1 {
             bindings = <
-&kp NON_US_BACKSLASH  &kp F6     &kp F7    &kp F8     &kp F9     &kp F10         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &none
-&kp CAPS              &kp LBKT   &kp RBKT  &kp MINUS  &kp EQUAL  &kp DOT         &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp TAB
-&kp LEFT_SHIFT        &kp COMMA  &kp DOT   &kp FSLH   &kp SEMI   &kp APOS        &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp RIGHT_ALT
-                                           &kp LCTRL  &none      &kp LEFT_ALT    &none   &none
+&kp DELETE  &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F4 NUMBER_4  &mt F5 NUMBER_5    &mt F6 NUMBER_6  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F10 NUMBER_0   &kp BACKSPACE
+&kp CAPS    &kp LBKT         &kp RBKT         &kp MINUS        &kp EQUAL        &kp DOT            &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &kp ENTER
+&none       &kp COMMA        &kp DOT          &kp FSLH         &kp SEMI         &kp APOS           &kp HOME         &kp END          &kp PAGE_UP      &kp PAGE_DOWN    &kp N0             &kp RIGHT_SHIFT
+                                              &kp LCTRL        &none            &kp LEFT_ALT       &none            &none
             >;
         };
 
         layer_2 {
             bindings = <
-&none         &kp F11       &kp F12       &none         &none         &none    &kp DELETE  &kp BACKSPACE   &kp UP_ARROW    &kp ENTER        &none  &none
-&bt BT_CLR    &none         &none         &none         &none         &none    &kp ESC     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none       &none           &none           &none            &none  &kp RIGHT_ALT
-                                          &none         &none         &none    &none       &none
+&bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans          &trans          &trans        &trans           &trans  &trans
+&kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp RS(C_MUTE)  &trans        &trans        &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans           &trans             &trans          &trans        &trans        &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
+                                                    &trans        &trans        &trans    &mkp MB1        &mkp MB2
             >;
         };
 
