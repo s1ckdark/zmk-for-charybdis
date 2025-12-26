@@ -54,9 +54,9 @@
         layer_1 {
             bindings = <
 &kp ESC         &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &mt F4 NUMBER_4  &mt F5 NUMBER_5    &mt F6 NUMBER_6  &mt F7 NUMBER_7  &mt F8 NUMBER_8  &mt F9 NUMBER_9  &mt F10 NUMBER_0  &mt CLEAR DEL
-&kp CAPS        &kp LBKT         &kp RBKT         &kp MINUS        &kp EQUAL        &kp DOT            &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp PAUSE_BREAK   &kp INSERT
-&kp LEFT_SHIFT  &kp COMMA        &kp DOT          &kp FSLH         &kp SEMI         &kp APOS           &mkp MB1         &mkp MB2         &kp PAGE_UP      &kp PAGE_DOWN    &kp HOME          &kp END
-                                                  &mkp MB1         &mkp MB2         &none              &none            &mkp MB1
+&kp CAPS        &kp LBKT         &kp RBKT         &kp MINUS        &kp EQUAL        &kp DOT            &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp HOME          &kp INSERT
+&kp LEFT_SHIFT  &kp COMMA        &kp DOT          &kp FSLH         &kp SEMI         &kp APOS           &mkp MB1         &mkp MB2         &kp PAGE_UP      &kp PAGE_DOWN    &kp END           &none
+                                                  &mkp MB1         &mkp MB2         &kp LC(SPACE)      &mkp MB4         &mkp MB5
             >;
         };
 
