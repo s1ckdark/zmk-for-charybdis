@@ -42,10 +42,10 @@
 
         layer_0 {
             bindings = <
-&lt 2 ESC       &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E    &mt NUMBER_4 R              &mt NUMBER_5 T    &mt NUMBER_6 Y      &mt NUMBER_7 U         &mt NUMBER_8 I       &mt NUMBER_9 O         &mt NUMBER_0 P               &mt LG(BSPC) BACKSPACE
+&lt 1 ESC       &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E    &mt NUMBER_4 R              &mt NUMBER_5 T    &mt NUMBER_6 Y      &mt NUMBER_7 U         &mt NUMBER_8 I       &mt NUMBER_9 O         &mt NUMBER_0 P               &mt LG(BSPC) BACKSPACE
 &mt LCTRL TAB   &mt LG(A) A     &mt LG(S) S     &mt LG(D) D       &mt LG(F) F                 &mt LG(G) G       &mt MINUS H         &mt EQUAL J            &mt BACKSLASH K      &mt GRAVE L            &mt RS(SEMICOLON) SEMICOLON  &mt RS(SQT) SQT
 &kp LEFT_SHIFT  &mt LG(Z) Z     &mt LG(X) X     &mt LG(C) C       &mt LG(V) V                 &mt LG(B) B       &mt LEFT_BRACKET N  &mt RIGHT_BRACKET M    &mt RS(COMMA) COMMA  &mt RS(PERIOD) PERIOD  &mt RS(SLASH) SLASH          &lt 1 ENTER
-                                                &mt LEFT_ALT DEL  &mt LEFT_COMMAND BACKSPACE  &lt 1 SPACE       &lt 1 SPACE         &mt RIGHT_SHIFT ENTER
+                                                &mt LEFT_ALT DEL  &mt LEFT_COMMAND BACKSPACE  &lt 1 SPACE       &lt 2 SPACE         &mt RIGHT_SHIFT ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
