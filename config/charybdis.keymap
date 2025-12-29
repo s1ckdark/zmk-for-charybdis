@@ -62,10 +62,10 @@
 
         layer_2 {
             bindings = <
-&bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &bt BT_CLR_ALL    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans  &trans  &trans
-&kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_NEXT        &trans           &trans           &trans           &trans  &trans  &trans
-&trans           &trans             &trans        &trans            &trans        &trans            &trans           &trans           &trans           &trans  &trans  &trans
-                                                  &To0_macro        &To1_macro    &To2_macro        &trans           &none
+&bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_PLAY_PAUSE  &kp C_PREV    &kp C_NEXT        &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans             &trans        &trans            &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
+                                                  &trans            &trans        &trans            &trans  &trans
             >;
         };
 
