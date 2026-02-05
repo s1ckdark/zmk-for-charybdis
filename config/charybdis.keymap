@@ -75,7 +75,6 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V                       &kp B          &kp N        &kp M      &mt RS(COMMA) COMMA  &mt RS(PERIOD) PERIOD  &mt RS(SLASH) SLASH          &mt RIGHT_SHIFT ENTER
                               &mt LEFT_ALT DEL  &mt LEFT_COMMAND BACKSPACE  &lt 2 SPACE    &lt 1 SPACE  &td_layer
             >;
-
         };
 
         layer_1 {
@@ -83,7 +82,7 @@
 &mt TILDE GRAVE  &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt LCTRL NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0     &mt PIPE NON_US_BACKSLASH
 &trans           &msc SCRL_DOWN            &msc SCRL_UP          &msc SCRL_RIGHT    &mt HOME PAGE_UP     &mt END PAGE_DOWN       &kp LEFT            &kp DOWN_ARROW          &kp UP_ARROW           &kp RIGHT_ARROW                &mt RS(MINUS) MINUS                &mt RS(EQUAL) EQUAL
 &trans           &mmv MOVE_DOWN            &mmv MOVE_UP          &mmv MOVE_RIGHT    &mmv MOVE_RIGHT      &kp INS                 &mkp MB1            &mkp MB2                &mkp MB4               &mkp MB5                       &mt RS(LEFT_BRACKET) LEFT_BRACKET  &mt RS(RIGHT_BRACKET) RIGHT_BRACKET
-                                                                 &mkp MB1           &mkp MB2             &kp LC(SPACE)           &kp RIGHT_SHIFT     &trans
+                                                                 &mkp MB1           &mkp MB2             &kp SPACE               &kp RIGHT_SHIFT     &trans
             >;
         };
 
