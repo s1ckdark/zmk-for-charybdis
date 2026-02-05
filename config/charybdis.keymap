@@ -75,6 +75,7 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V                       &kp B          &kp N        &kp M      &mt RS(COMMA) COMMA  &mt RS(PERIOD) PERIOD  &mt RS(SLASH) SLASH          &mt RIGHT_SHIFT ENTER
                               &mt LEFT_ALT DEL  &mt LEFT_COMMAND BACKSPACE  &lt 2 SPACE    &lt 1 SPACE  &td_layer
             >;
+      trackball-bindings = <&tmv_coarse>;
         };
 
         layer_1 {
@@ -84,6 +85,7 @@
 &trans           &mmv MOVE_DOWN            &mmv MOVE_UP          &mmv MOVE_RIGHT    &mmv MOVE_RIGHT      &kp INS                 &mkp MB1            &mkp MB2                &mkp MB4               &mkp MB5                       &mt RS(LEFT_BRACKET) LEFT_BRACKET  &mt RS(RIGHT_BRACKET) RIGHT_BRACKET
                                                                  &mkp MB1           &mkp MB2             &kp SPACE               &kp RIGHT_SHIFT     &trans
             >;
+      trackball-bindings = <&tmv_fine>;
         };
 
         layer_2 {
@@ -93,7 +95,7 @@
 &trans           &trans             &trans        &trans            &trans        &trans            &mkp MB1  &mkp MB2  &mkp MB4  &mkp MB5  &trans   &trans
                                                   &mkp MB1          &mkp MB2      &trans            &trans    &trans
             >;
-
+      trackball-bindings = <&tmv_fine>;
             label = "FN";
         };
 
